@@ -1,5 +1,12 @@
 # Change Log
 
+# 1.1.0 (2023-03-22)
+
+
+### Features 
+
+- License changed from `GPL3.0` to `ISC`
+
 # 1.0.0 (2023-03-21)
 
 
