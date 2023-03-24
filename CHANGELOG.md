@@ -1,5 +1,12 @@
 # Change Log
 
+# 1.1.1 (2023-03-24)
+
+
+### Bug fixes
+
+* change broken dependency 
+
 # 1.1.0 (2023-03-22)
 
 
@@ -14,18 +21,9 @@
 
 * remove xhr 
 
-### Refactor
-
-* documentation fix 
-
 ### Features
 
-* add ts-res result 
-* custom data array 
-* get visitor code 
-* external event source 
-* external storage 
-* real time update 
+* add feature flags v2
 
 # 0.0.2 (2022-11-01)
 
