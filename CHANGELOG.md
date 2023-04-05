@@ -1,5 +1,21 @@
 # Change Log
 
+# 2.0.0 (2023-04-05)
+
+
+### Bug fixes
+
+* use correct top level domain for data
+* remove kameleoon client headers
+* remove sdk true parameter
+* test regexp
+
+### Features
+
+* integration of compute edge 
+* api-ssx migration 
+* tracking requests and conditions
+
 # 1.1.1 (2023-03-24)
 
 
