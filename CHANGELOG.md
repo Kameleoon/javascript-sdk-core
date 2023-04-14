@@ -1,20 +1,35 @@
 # Change Log
 
+# 2.1.0 (2023-04-14)
+
+
+### Bug fixes
+
+* variation calculation logic 
+* remove sdk true parameter 
+* test regexp 
+
+### Features
+
+* targeting cleanup interval 
+* get experiment variation data 
+* get engine tracking code 
+* api-ssx migration 
+* tracking requests and conditions 
+
 # 2.0.0 (2023-04-05)
 
 
 ### Bug fixes
 
-* use correct top level domain for data
-* remove kameleoon client headers
-* remove sdk true parameter
-* test regexp
+* use correct top level domain for data 
+* remove kameleoon client headers 
 
 ### Features
 
 * integration of compute edge 
-* api-ssx migration 
-* tracking requests and conditions
+* api-ssx migration
+* tracking requests and conditions 
 
 # 1.1.1 (2023-03-24)
 
