@@ -1,5 +1,12 @@
 # Change Log
 
+# 2.1.1 (2023-04-18)
+
+
+### Bug fixes
+
+* visitor code cookie header
+
 # 2.1.0 (2023-04-14)
 
 
