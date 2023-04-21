@@ -1,5 +1,12 @@
 # Change Log
 
+# 2.2.0 (2023-04-21)
+
+
+### Features
+
+* `getEngineTrackingCode` method is now public
+
 # 2.1.1 (2023-04-18)
 
 
