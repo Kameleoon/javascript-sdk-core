@@ -1,5 +1,12 @@
 # Change Log
 
+# 2.2.1 (2023-04-24)
+
+
+### Bug fixes
+
+* Tracking feature flag rule with variation `off` wasn't displayed on result page
+
 # 2.2.0 (2023-04-21)
 
 
