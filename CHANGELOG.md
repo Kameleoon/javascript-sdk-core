@@ -1,5 +1,16 @@
 # Change Log
 
+# 2.3.0 (2023-04-28)
+
+
+### Bug fixes
+
+* Unused optional chaining operator in `KameleoonUtils` was removed
+* Experiments methods no more persist assigned variations
+
+### Features
+
+* Added retries for client initialization
 # 2.2.1 (2023-04-24)
 
 
