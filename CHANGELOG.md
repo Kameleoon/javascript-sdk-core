@@ -1,5 +1,18 @@
 # Change Log
 
+# 2.4.0 (2023-05-19)
+
+
+### Bug fixes
+
+* More meaningful URL names for requester
+* `updateInterval` was set to 30 minutes instead of 60 in some places
+
+### Features
+
+* New method `getRemoteVisitorData`
+* New offline mode for `initialize` method
+
 # 2.3.0 (2023-04-28)
 
 
@@ -11,6 +24,7 @@
 ### Features
 
 * Added retries for client initialization
+
 # 2.2.1 (2023-04-24)
 
 
@@ -37,43 +51,43 @@
 
 ### Bug fixes
 
-* variation calculation logic 
-* remove sdk true parameter 
-* test regexp 
+* variation calculation logic
+* remove sdk true parameter
+* test regexp
 
 ### Features
 
-* targeting cleanup interval 
-* get experiment variation data 
-* get engine tracking code 
-* api-ssx migration 
-* tracking requests and conditions 
+* targeting cleanup interval
+* get experiment variation data
+* get engine tracking code
+* api-ssx migration
+* tracking requests and conditions
 
 # 2.0.0 (2023-04-05)
 
 
 ### Bug fixes
 
-* use correct top level domain for data 
-* remove kameleoon client headers 
+* use correct top level domain for data
+* remove kameleoon client headers
 
 ### Features
 
-* integration of compute edge 
+* integration of compute edge
 * api-ssx migration
-* tracking requests and conditions 
+* tracking requests and conditions
 
 # 1.1.1 (2023-03-24)
 
 
 ### Bug fixes
 
-* change broken dependency 
+* change broken dependency
 
 # 1.1.0 (2023-03-22)
 
 
-### Features 
+### Features
 
 - License changed from `GPL3.0` to `ISC`
 
@@ -82,7 +96,7 @@
 
 ### Bug fixes
 
-* remove xhr 
+* remove xhr
 
 ### Features
 
@@ -93,7 +107,7 @@
 
 ### Bug fixes
 
-* remove boolean case condition 
+* remove boolean case condition
 
 # 0.0.1 (2022-10-13)
 
