@@ -1,5 +1,12 @@
 # Change Log
 
+# 2.4.2 (2023-05-21)
+
+
+### Bug fixes
+
+* [`getRemoteVisitorData`](https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/js-sdk#obtain-custom-data-from-kameleoon-data-api) current visits not being up-to-date
+
 # 2.4.1 (2023-05-20)
 
 
@@ -12,7 +19,7 @@
 
 ### Bug fixes
 
-* More meaningful URL names for requester
+* more meaningful URL names for requester
 * `updateInterval` was set to 30 minutes instead of 60 in some places
 
 ### Features
