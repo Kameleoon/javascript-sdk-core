@@ -1,5 +1,12 @@
 # Change Log
 
+# 2.4.3 (2023-05-24)
+
+
+### Bug fixes
+
+* Fixed issue for sending unique `Nonce` parameter on tracking requests
+
 # 2.4.2 (2023-05-21)
 
 
