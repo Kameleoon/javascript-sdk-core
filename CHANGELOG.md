@@ -1,5 +1,12 @@
 # Change Log
 
+# 2.4.4 (2023-05-31)
+
+
+### Bug fixes
+
+* Improve targeting data cleanup interval handling
+
 # 2.4.3 (2023-05-24)
 
 
