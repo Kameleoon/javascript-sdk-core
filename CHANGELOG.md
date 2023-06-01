@@ -1,5 +1,13 @@
 # Change Log
 
+# 2.4.5 (2023-06-01)
+
+
+### Bug fixes
+
+* Empty visitor code is no more allowed
+* Incorrect tracking body upon triggering an experiment
+
 # 2.4.4 (2023-05-31)
 
 
