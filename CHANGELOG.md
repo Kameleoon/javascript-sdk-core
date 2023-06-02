@@ -1,5 +1,12 @@
 # Change Log
 
+# 2.4.6 (2023-06-02)
+
+
+### Bug fixes
+
+* Custom data true/false match type should work when condition value is `null`
+
 # 2.4.5 (2023-06-01)
 
 
