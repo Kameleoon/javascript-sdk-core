@@ -1,7 +1,13 @@
 # Change Log
 
-# 2.5.0 (2023-06-28)
+# 2.5.1 (2023-06-30)
 
+
+### Bug fixes
+
+* Tracking data duplications
+
+# 2.5.0 (2023-06-28)
 
 ### Bug fixes
 
