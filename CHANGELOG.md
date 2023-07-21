@@ -1,5 +1,17 @@
 # Change Log
 
+# 2.7.0 (2023-07-21)
+
+
+### Bug fixes
+
+- Checks against unsupported conditions are now truthy.
+
+### Features
+
+- `flushData` has been deprecated in favor of [`flush`](https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/js-sdk#flush).
+- [`flush`](https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/js-sdk#flush) sends failed tracking requests that were stored locally during the offline mode at first and then proceeds with the latest request.
+
 # 2.6.0 (2023-07-17)
 
 
@@ -19,7 +31,7 @@
 
 ### Bug fixes
 
-* Tracking data duplications
+* tracking data duplications
 
 # 2.5.0 (2023-06-28)
 
