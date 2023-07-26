@@ -1,11 +1,15 @@
 # Change Log
 
-# 2.7.0 (2023-07-21)
+# 2.7.1 (2023-07-26)
 
 
 ### Bug fixes
 
-- Checks against unsupported conditions are now truthy.
+* [`flush`](https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/js-sdk#flush) now sends offline tracking requests even if there's no new data to track.
+* Timestamps for offline requests are set correctly.
+
+# 2.7.0 (2023-07-21)
+
 
 ### Features
 
