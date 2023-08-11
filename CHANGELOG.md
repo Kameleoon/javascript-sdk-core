@@ -1,5 +1,18 @@
 # Change Log
 
+# 2.8.0 (2023-08-11)
+
+
+### Bug fixes
+
+* Empty Custom Data is now sending activity tracking event
+
+### Features
+
+* Added [Tracking requests rate limit](https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/nodejs-sdk#tracking-rate-limit) capabilities
+* Added [Cross Device Custom Data Synchronization](https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/js-sdk#cross-device-custom-data-synchronization) capabilities
+
+
 # 2.7.1 (2023-07-26)
 
 
