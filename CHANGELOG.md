@@ -1,5 +1,18 @@
 # Change Log
 
+# 2.8.1 (2023-08-25)
+
+
+### Bug fixes
+
+* Multiple `Real Time Update` connections are no longer created
+* `Custom Data Condition` now handles all exceptions properly
+
+
+### Refactor
+
+* Update `Custom Data` tests
+
 # 2.8.0 (2023-08-11)
 
 
@@ -11,7 +24,6 @@
 
 * Added [Tracking requests rate limit](https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/nodejs-sdk#tracking-rate-limit) capabilities
 * Added [Cross Device Custom Data Synchronization](https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/js-sdk#cross-device-custom-data-synchronization) capabilities
-
 
 # 2.7.1 (2023-07-26)
 
