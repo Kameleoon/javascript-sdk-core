@@ -1,5 +1,12 @@
 # Change Log
 
+# 2.8.2 (2023-08-31)
+
+
+### Bug fixes
+
+* `Custom Data Condition` now handles index `0` properly
+
 # 2.8.1 (2023-08-25)
 
 
