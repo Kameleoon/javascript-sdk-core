@@ -1,5 +1,12 @@
 # Change Log
 
+# 2.8.3 (2023-09-05)
+
+
+### Bug fixes
+
+* `UserAgent` was not exported from SDK
+
 # 2.8.2 (2023-08-31)
 
 
@@ -14,11 +21,6 @@
 
 * Multiple `Real Time Update` connections are no longer created
 * `Custom Data Condition` now handles all exceptions properly
-
-
-### Refactor
-
-* Update `Custom Data` tests
 
 # 2.8.0 (2023-08-11)
 
