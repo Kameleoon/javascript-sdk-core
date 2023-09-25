@@ -1,5 +1,12 @@
 # Change Log
 
+# 2.9.0 (2023-09-25)
+
+
+### Features
+
+* Added `getClientConfigurationUrl` utility
+
 # 2.8.3 (2023-09-05)
 
 
