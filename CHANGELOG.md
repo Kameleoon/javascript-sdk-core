@@ -1,5 +1,16 @@
 # Change Log
 
+# 2.9.1 (2023-10-11)
+
+
+### Bug fixes
+
+* Storage data parse overhead optimization
+
+### Refactor
+
+* Add string as possible storage type
+
 # 2.9.0 (2023-09-25)
 
 
