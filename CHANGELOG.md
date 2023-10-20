@@ -1,5 +1,12 @@
 # Change Log
 
+# 2.10.1 (2023-10-20)
+
+
+### Bug fixes
+
+* Fix previous version deploy issue
+
 # 2.10.0 (2023-10-20)
 
 
@@ -13,10 +20,6 @@
 ### Bug fixes
 
 * Storage data parse overhead optimization
-
-### Refactor
-
-* Add string as possible storage type
 
 # 2.9.0 (2023-09-25)
 
