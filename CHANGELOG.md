@@ -1,5 +1,12 @@
 # Change Log
 
+# 2.10.0 (2023-10-20)
+
+
+### Features
+
+* Added new method [`getVisitorWarehouseAudience`](https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/js-sdk#getvisitorwarehouseaudience)
+
 # 2.9.1 (2023-10-11)
 
 
