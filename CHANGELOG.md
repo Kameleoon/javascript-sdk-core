@@ -1,5 +1,12 @@
 # Change Log
 
+# 3.1.0 (2023-11-24)
+
+### Features
+
+* Added `setLegalConsent` method to determine the types data Kameleoon includes in tracking requests. This helps you adhere to legal and regulatory requirements while responsibly managing visitor data. You can find more information in the [Consent management policy](https://help.kameleoon.com/consent-management-policy).
+* Migration to new CC end-point
+
 # 3.0.0 (2023-11-16)
 
 ### Breaking change
