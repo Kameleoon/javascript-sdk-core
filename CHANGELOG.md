@@ -1,5 +1,12 @@
 # Change Log
 
+# 3.2.1 (2023-12-04)
+
+
+### Bug fixes
+
+* Client cookie is now set properly
+
 # 3.2.0 (2023-11-30)
 
 
@@ -12,13 +19,13 @@
 ### Features
 
 * Added `setLegalConsent` method to determine the types data Kameleoon includes in tracking requests. This helps you adhere to legal and regulatory requirements while responsibly managing visitor data. You can find more information in the [Consent management policy](https://help.kameleoon.com/consent-management-policy).
-* Migration to new CC end-point
 
 # 3.0.0 (2023-11-16)
 
+
 ### Breaking change
 
-* SDK stopped the support of Web Experiments, the following methods were removed:
+* SDK stopped the support of the following methods were:
   - `getExperiments`
   - `getVisitorExperiments`
   - `triggerExperiment`
