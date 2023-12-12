@@ -1,5 +1,17 @@
 # Change Log
 
+# 3.4.0 (2023-12-12)
+
+
+### Features
+
+* Updated the `getFeatureFlagVariable` method to return an object of type `FeatureFlagVariableType`
+* Enhanced the `getFeatureFlagVariables` method to include the `key` field in its return value.
+
+### Bug fixes
+
+* Custom Data mapping identifier wasn't tracked correctly
+
 # 3.3.0 (2023-12-11)
 
 
