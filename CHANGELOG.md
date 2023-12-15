@@ -1,5 +1,12 @@
 # Change Log
 
+# 3.4.1 (2023-12-15)
+
+
+### Bug fixes
+
+* Add nonce property for conversion data and set value on constructor call
+
 # 3.4.0 (2023-12-12)
 
 
