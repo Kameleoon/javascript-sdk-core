@@ -1,11 +1,24 @@
 # Change Log
 
+# 3.5.0 (2024-01-18)
+
+
+### Bug fixes
+
+* SDK threw an error reading storage when migrating from older SDK versions
+* React Native SDK visitor code couldn't be read from storage in certain React Native versions
+* React SDK request headers caused CORS errors
+
+### Features
+
+* Added new SDK `configuration` parameter [`requestTimeout`](https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/js-sdk/#1-initializing-the-kameleoon-client), which defines maximum time in _milliseconds_ after which any SDK network request will fail
+
 # 3.4.1 (2023-12-15)
 
 
 ### Bug fixes
 
-* Add nonce property for conversion data and set value on constructor call
+* Fix nonce for `Conversion` data
 
 # 3.4.0 (2023-12-12)
 
@@ -30,10 +43,6 @@
 ### Bug fixes
 
 * Targeting data cleanup caused `TypeError`
-
-### Refactor
-
-* Migration to Client Configuration API v2.0
 
 # 3.2.1 (2023-12-04)
 
