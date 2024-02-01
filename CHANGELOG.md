@@ -1,5 +1,12 @@
 # Change Log
 
+# 3.6.0 (2024-02-01)
+
+
+### Features
+
+* Add environment support to `getClientConfigurationUrl`
+
 # 3.5.0 (2024-01-18)
 
 
