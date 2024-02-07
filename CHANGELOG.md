@@ -1,5 +1,12 @@
 # Change Log
 
+# 3.6.1 (2024-02-07)
+
+
+### Bug fixes
+
+* Tracking wasn't sent if consent is required
+
 # 3.6.0 (2024-02-01)
 
 
