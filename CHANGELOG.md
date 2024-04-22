@@ -1,5 +1,21 @@
 # Change Log
 
+## 4.1.0 (2024-04-19)
+
+### Features
+
+- New [Likelihood to Convert](https://developers.kameleoon.com/feature-management-and-experimentation/using-visit-history-in-feature-flags-and-experiments/#predefined-targeting-conditions) targeting condition.
+- [`getRemoteVisitorData`](https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/js-sdk#getremotevisitordata) method now accepts new boolean parameter `isUniqueIdentifier` to obtain all linked visitors data when working with [Cross-device experimentation](https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/js-sdk#cross-device-experimentation)
+- Miscellaneous [Cross-device experimentation](https://developers.kameleoon.com/core-concepts/cross-device-experimentation) improvements
+
+### Patch Changes
+
+- Fixed the issue with when `_` variable was transformed to duplicate identifier `a` causing `TypeError`
+- Improved visits data collection logic
+- `Browser` condition could throw an error when the browser version wasn't specified on Kameleoon Platform
+- `Geolocation` condition is now case insensitive
+- SDK Core version is no more sent with tracking
+
 ## 4.0.1 (2024-02-21)
 
 ### Patch Changes
