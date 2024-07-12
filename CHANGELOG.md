@@ -1,5 +1,12 @@
 # Change Log
 
+## 4.4.1 (2024-07-12)
+
+### Patch Changes
+
+- `ClientConfiguration` and `RemoteData` Kameleoon Exceptions are now more informative
+- [`getEngineTrackingCode`](https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/js-sdk/#getenginetrackingcode) output code is now correctly overrides experiment variation assigned by JS Script
+
 ## 4.4.0 (2024-06-21)
 
 ### Features
