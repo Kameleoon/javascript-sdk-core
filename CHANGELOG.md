@@ -1,5 +1,11 @@
 # Change Log
 
+## 4.4.4 (2024-07-19)
+
+### Patch Changes
+
+- Fix previous release, which didn't contain all the described changes
+
 ## 4.4.3 (2024-07-19)
 
 ### Patch Changes
