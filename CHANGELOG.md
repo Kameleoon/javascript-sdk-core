@@ -1,5 +1,11 @@
 # Change Log
 
+## 4.4.3 (2024-07-19)
+
+### Patch Changes
+
+- Improved random generation for `nonce` values
+
 ## 4.4.2 (2024-07-16)
 
 ### Patch Changes
