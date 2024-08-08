@@ -1,5 +1,11 @@
 # Change Log
 
+## 4.4.5 (2024-08-08)
+
+### Patch Changes
+
+- Fixed an issue that caused duplicate entries in feature flag results for both anonymous and authorized/identified visitors during data reconciliation. This problem occurred when custom data of type mapping ID was not consistently sent for all sessions.
+
 ## 4.4.4 (2024-07-19)
 
 ### Patch Changes
