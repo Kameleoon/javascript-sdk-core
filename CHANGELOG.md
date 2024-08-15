@@ -1,5 +1,11 @@
 # Change Log
 
+## 4.4.6 (2024-08-15)
+
+### Patch Changes
+
+-  Fixed the issue with mapping identifier Custom Data not being set correctly after browser tab reload
+
 ## 4.4.5 (2024-08-08)
 
 ### Patch Changes
