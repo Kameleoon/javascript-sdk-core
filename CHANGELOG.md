@@ -1,10 +1,16 @@
 # Change Log
 
+## 4.4.7 (2024-08-30)
+
+### Patch Changes
+
+- Fixed the issue - some feature experiment conditions could resolve to incorrect values on interval configuration update
+
 ## 4.4.6 (2024-08-15)
 
 ### Patch Changes
 
--  Fixed the issue with mapping identifier Custom Data not being set correctly after browser tab reload
+- Fixed the issue with mapping identifier Custom Data not being set correctly after browser tab reload
 
 ## 4.4.5 (2024-08-08)
 
