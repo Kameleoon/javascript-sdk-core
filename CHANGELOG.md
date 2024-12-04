@@ -1,5 +1,14 @@
 # Change Log
 
+## 5.1.1
+
+### Patch Changes
+
+- Fixed the issue where Real-Time Update server failures could lead to SDK configuration update issues. If the Real-Time Update server fails SDK will now temporarily switch to polling mode until the Real-Time Update server is available again.
+- Added an optional `onError` handler for [`IExternalEventSource`][iextrnaleventsource] interface. If the `onError` handler is not provided the SDK would not be able to handle Real-Time Update server failures. Note: no action is required when using default Kameleoon event source solutions.
+
+[iextrnaleventsource]: https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/js-sdk/#eventsource
+
 ## 5.1.0 (2024-11-14)
 
 ### Features
