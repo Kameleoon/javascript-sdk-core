@@ -1,5 +1,11 @@
 # Change Log
 
+## 5.1.3
+
+### Patch Changes
+
+- Fixed the issue with `off` variation not being added to `getEngineTrackingCode` result
+
 ## 5.1.2 (2024-12-05)
 
 ### Patch Changes
