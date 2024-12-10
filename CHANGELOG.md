@@ -1,5 +1,11 @@
 # Change Log
 
+## 5.2.1 (2024-12-10)
+
+### Patch Changes
+
+- Replaced the nullish coalescing assignment operator (??=) with a more widely supported approach to ensure compatibility with older ES versions.
+
 ## 5.2.0 (2024-12-09)
 
 ### Features
