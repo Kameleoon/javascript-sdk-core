@@ -1,5 +1,14 @@
 # Change Log
 
+## 5.2.3 (2024-12-25)
+
+### Patch Changes
+
+- Enhanced the performance of the [`setLegalConsent()`][setLegalConsent] method.
+- Resolved an issue that could lead to uncontrolled memory growth in specific scenarios.
+
+[setLegalConsent]: https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/js-sdk#setlegalconsent
+
 ## 5.2.2 (2024-12-19)
 
 ### Patch Changes
