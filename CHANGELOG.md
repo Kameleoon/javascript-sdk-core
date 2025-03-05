@@ -1,5 +1,11 @@
 # Change Log
 
+## 5.6.1 (2025-03-05)
+
+### Patch Changes
+
+- Resolved all circular dependencies to improve stability.
+
 ## 5.6.0 (2025-02-26)
 
 ### Features
