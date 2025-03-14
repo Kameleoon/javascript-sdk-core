@@ -1,5 +1,14 @@
 # Change Log
 
+## 5.7.1 (2025-03-14)
+
+### Patch Changes
+
+- Fixed the evaluation of the targeting condition for [**New or Returning Visitors**](https://developers.kameleoon.com/feature-management-and-experimentation/using-visit-history-in-feature-flags-and-experiments/#targeting-conditions-requiring-getremotevisitordata).
+- Removed incorrect logging for the [`CustomData`](CustomData) condition when using the **has not been defined yet** operator.
+
+[CustomData]: https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/js-sdk/#customdata
+
 ## 5.7.0 (2025-03-12)
 
 ### Features
