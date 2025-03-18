@@ -1,5 +1,13 @@
 # Change Log
 
+## 5.8.0 (2025-03-18)
+
+### Features
+
+- Added support for Contextual Bandit evaluations. Calling [`getRemoteVisitorData`][getRemoteVisitorData] with the `cbs=true` flag is required for this feature to function correctly. Platform-wide release expected in March 2025.
+
+[getRemoteVisitorData]: https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/js-sdk/#getremotevisitordata
+
 ## 5.7.1 (2025-03-14)
 
 ### Patch Changes
