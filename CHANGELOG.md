@@ -1,5 +1,13 @@
 # Change Log
 
+## 5.9.2 (2025-05-15)
+
+### Patch Changes
+
+- Fixed an issue with the [session merging][SessionMerging] feature that could prevent registered users from being correctly included in experiment results when they were linked to an anonymous user during the same visitor session.
+
+[SessionMerging]: https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/js-sdk/#using-custom-data-for-session-merging
+
 ## 5.9.1 (2025-04-08)
 
 ### Patch Changes
