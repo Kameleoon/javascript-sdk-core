@@ -1,5 +1,11 @@
 # Change Log
 
+## 5.10.1 (2025-06-26)
+
+### Patch Changes
+
+- Fixed a potential error: `Cannot read property 'createCondition' of undefined`, which could occur due to differences in how various JavaScript bundlers or module loaders handle dependency initialization timing (for JS / React SDKs).
+
 ## 5.10.0 (2025-05-26)
 
 ### Features
