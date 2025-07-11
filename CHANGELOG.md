@@ -1,5 +1,11 @@
 # Change Log
 
+## 5.12.1 (2025-07-11)
+
+### Patch Changes
+
+- Stability and performance improvements
+
 ## 5.12.0 (2025-07-10)
 
 ### Features
