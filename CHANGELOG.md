@@ -1,5 +1,15 @@
 # Change Log
 
+## 5.14.1 (2025-07-30)
+
+### Patch Changes
+
+- Improved error logging when parsing [`defaultDataFile`](defaultDataFile) - now provides more informative messages for easier debugging.
+- Optimized tree-shaking to reduce bundle size by eliminating unused code.
+- Removed Node.js crypto dependency from the browser bundle to prevent build-time errors.
+
+[defaultDataFile]: https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/js-sdk/#configuration-parameters
+
 ## 5.14.0 (2025-07-24)
 
 ### Features
