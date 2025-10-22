@@ -1,5 +1,18 @@
 # Change Log
 
+## 5.16.0 (2025-10-22)
+
+### Minor Changes
+
+- Introduced a new [`getDataFile`](getDataFile) method. This method returns the current SDK configuration (also known as the **data file**) used for evaluation and targeting. It is **not** intended for production use to fetch variations for every feature flag in the returned list, as it is not optimized for performance. For that purpose, use [`getVariations`](getVariations) instead. `getDataFile` is mainly useful for debugging or QA, for example to let internal users manually select a variant for a specific feature flag in production.
+
+### Patch Changes
+
+- Addressed an issue where tracking data was sent for visitors who had not provided [consent](setLegalConsent).
+
+[setLegalConsent]: https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/js-sdk#setLegalConsent
+[getDataFile]: https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/js-sdk#getdatafile
+
 ## 5.15.0 (2025-09-01)
 
 > [!WARNING]
