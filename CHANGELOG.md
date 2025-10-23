@@ -1,5 +1,11 @@
 # Change Log
 
+## 5.16.1 (2025-10-23)
+
+### Patch Changes
+
+- Fixed an issue where [`Conversion`](Conversion) metadata initialized with a name was not tracked.
+
 ## 5.16.0 (2025-10-22)
 
 ### Minor Changes
