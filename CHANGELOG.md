@@ -1,5 +1,14 @@
 # Change Log
 
+## 5.17.0 (2025-12-17)
+
+### Features
+
+- Fixed an issue where **[Kameleoon Data](https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/js-sdk/#data-types)** was retained beyond the configured **[`targetingDataCleanupInterval`](https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/js-sdk/#configuration-parameters)** if the **[Data API](https://developers.kameleoon.com/apis/data-api-rest/all-endpoints/post-visit-events/)** encountered internal errors. Expired data is now reliably removed in accordance with the cleanup interval.
+- Updated evaluation and tracking logic to comply with GDPR requirements when consent is not given:
+    - If behavior is **partially blocked**, the default variation will be returned.
+    - If behavior is **completely blocked**, an exception will be thrown.
+
 ## 5.16.1 (2025-10-23)
 
 ### Patch Changes
@@ -8,7 +17,7 @@
 
 ## 5.16.0 (2025-10-22)
 
-### Minor Changes
+### Features
 
 - Introduced a new [`getDataFile`](getDataFile) method. This method returns the current SDK configuration (also known as the **data file**) used for evaluation and targeting. It is **not** intended for production use to fetch variations for every feature flag in the returned list, as it is not optimized for performance. For that purpose, use [`getVariations`](getVariations) instead. `getDataFile` is mainly useful for debugging or QA, for example to let internal users manually select a variant for a specific feature flag in production.
 
