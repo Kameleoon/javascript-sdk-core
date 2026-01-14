@@ -46,17 +46,11 @@
 
 ## 5.14.5 (2025-08-20)
 
-> [!WARNING]
-> If you're upgrading from a version earlier than 5.14.0 and run into any unexpected build or SDK-related issues, please reach out to the Kameleoon Support Team. We're here to ensure your transition is smooth and will promptly address any concerns.
-
 ### Patch Changes
 
 - Corrected the logic for sending tracking data to comply with GDPR requirements.
 
 ## 5.14.4 (2025-08-13)
-
-> [!WARNING]
-> If you're upgrading from a version earlier than 5.14.0 and run into any unexpected build or SDK-related issues, please reach out to the Kameleoon Support Team. We're here to ensure your transition is smooth and will promptly address any concerns.
 
 ### Patch Changes
 
@@ -64,26 +58,17 @@
 
 ## 5.14.3 (2025-08-12)
 
-> [!WARNING]
-> If you're upgrading from a version earlier than 5.14.0 and run into any unexpected build or SDK-related issues, please reach out to the Kameleoon Support Team. We're here to ensure your transition is smooth and will promptly address any concerns.
-
 ### Patch Changes
 
 - Fixed an issue where [`Cookie`](https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/js-sdk#cookie) would throw an exception when parsing from a string if the cookie value was empty.
 
 ## 5.14.2 (2025-08-01)
 
-> [!WARNING]
-> If you're upgrading from a version earlier than 5.14.0 and run into any unexpected build or SDK-related issues, please reach out to the Kameleoon Support Team. We're here to ensure your transition is smooth and will promptly address any concerns.
-
 ### Patch Changes
 
 - Fixed an issue where [`setLegalConsent()`][setLegalConsent] automatically triggered [`flush()`][flush], which could cause extra latency in serverless or edge environments (e.g., **Lambda@Edge**). It now requires an explicit `flush()`, giving developers full control over data submission.
 
 ## 5.14.1 (2025-07-30)
-
-> [!WARNING]
-> If you're upgrading from a version earlier than 5.14.0 and run into any unexpected build or SDK-related issues, please reach out to the Kameleoon Support Team. We're here to ensure your transition is smooth and will promptly address any concerns.
 
 ### Patch Changes
 
@@ -94,9 +79,6 @@
 [defaultDataFile]: https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/js-sdk/#configuration-parameters
 
 ## 5.14.0 (2025-07-24)
-
-> [!WARNING]
-> If you're upgrading from a version earlier than 5.14.0 and run into any unexpected build or SDK-related issues, please reach out to the Kameleoon Support Team. We're here to ensure your transition is smooth and will promptly address any concerns.
 
 ### Features
 
