@@ -1,5 +1,11 @@
 # Change Log
 
+## 5.17.2 (2026-01-21)
+
+### Patch Changes
+
+- Stability and performance improvements
+
 ## 5.17.1 (2025-12-24)
 
 ### Patch Changes
@@ -35,9 +41,6 @@
 [getDataFile]: https://developers.kameleoon.com/feature-management-and-experimentation/web-sdks/js-sdk#getdatafile
 
 ## 5.15.0 (2025-09-01)
-
-> [!WARNING]
-> If you're upgrading from a version earlier than 5.14.0 and run into any unexpected build or SDK-related issues, please reach out to the Kameleoon Support Team. We're here to ensure your transition is smooth and will promptly address any concerns.
 
 ### Features
 
