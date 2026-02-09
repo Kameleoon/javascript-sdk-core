@@ -1,5 +1,11 @@
 # Change Log
 
+## 5.17.3 (2026-02-09)
+
+### Patch Changes
+
+- Stability and performance improvements
+
 ## 5.17.2 (2026-01-21)
 
 ### Patch Changes
